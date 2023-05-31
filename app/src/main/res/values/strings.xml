@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Trek_Tour</string>
+    <string name="text">Light Mode</string>
+    <string name="title_activity_map_location">MapLocation</string>
+    <string name="title_activity_current_fused_location">CurrentFusedLocation</string>
+</resources>

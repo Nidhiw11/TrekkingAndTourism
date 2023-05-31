@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".Devkund"
+            android:exported="false"
+            android:theme="@style/MyThemeNoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Bramhtal"
+            android:exported="false"
+            android:theme="@style/MyThemeNoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Pawana"
+            android:exported="false"
+            android:theme="@style/MyThemeNoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Bolly"
+            android:exported="false"
+            android:theme="@style/MyThemeNoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".WetnJoy"
+            android:exported="false"
+            android:theme="@style/MyThemeNoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".waterkingdom"
+            android:exported="false"
+            android:theme="@style/MyThemeNoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Acco_Travals"
+            android:exported="false"
+            android:theme="@style/MyThemeNoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".School_College"
+            android:exported="false"
+            android:theme="@style/MyThemeNoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Documented_articles"
+            android:exported="false"
+            android:theme="@style/MyThemeNoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BookingStatus"
+            android:exported="false"
+            android:theme="@style/MyThemeNoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".acc"
+            android:exported="false"
+            android:theme="@style/MyThemeNoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Upcoming_treks"
+            android:exported="false"
+            android:theme="@style/MyThemeNoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Kedarnath"
+            android:exported="false"
+            android:theme="@style/MyThemeNoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Karjat_details"
+            android:exported="false"
+            android:theme="@style/MyThemeNoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Kalsubai_details"
+            android:exported="false"
+            android:theme="@style/MyThemeNoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Trek_details"
+            android:exported="false"
+            android:theme="@style/MyThemeNoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".feedback"
+            android:exported="false"
+            android:theme="@style/Theme.Trek_Tour">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DashB"/>
+        </activity>
+        <activity
+            android:name=".Location_Tracker"
+            android:exported="false"
+            android:theme="@style/MyThemeNoActionBar">
+            <meta-data
+                android:name="com.google.android.geo.API_KEY"
+                android:value="AIzaSyDGAtYmY-d1CeWIdGU4DN7Af811qFKoz5Y" />
+        </activity>
+        <!--
+             TODO: Before you run your application, you need a Google Maps API key.
+
+             To get one, follow the directions here:
+
+                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+
+             Once you have your API key (it starts with "AIza"), define a new property in your
+             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDGAtYmY-d1CeWIdGU4DN7Af811qFKoz5Y" />
+
+        <activity
+            android:name=".Payment"
+            android:exported="true"
+            android:theme="@style/MyThemeNoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".TrekLibrary"
+            android:exported="true"
+            android:theme="@style/MyThemeNoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".UpdateP"
+            android:exported="false"
+            android:theme="@style/Theme.Trek_Tour">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".UserProfile"/>
+        </activity>
+        <activity
+            android:name=".UploadProfilePic"
+            android:exported="false"
+            android:theme="@style/Theme.Trek_Tour">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".UpdateP"/>
+        </activity>
+        <activity
+            android:name=".UserProfile"
+            android:exported="false"
+            android:theme="@style/Theme.Trek_Tour">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DashB"/>
+        </activity>
+        <activity
+            android:name=".FP"
+            android:exported="false"
+            android:theme="@style/Theme.Trek_Tour">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".DashB"
+            android:exported="false"
+            android:theme="@style/Theme.Trek_Tour">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+        <activity
+            android:name=".Registration"
+            android:exported="false"
+            android:theme="@style/MyThemeNoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/MyThemeNoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

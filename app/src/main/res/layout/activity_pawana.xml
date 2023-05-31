@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pawana">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/pawnaside" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Pawna Lake Camping Maharashtra"
+                android:gravity="center"
+                android:textColor="#000"
+                android:textSize="36dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_marginStart="10dp"
+                android:text="PRICE RANGE(27% off)"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_marginStart="10dp"
+                android:text="INR 999"
+                android:id="@+id/pawnprice"
+                android:textStyle="bold"
+                android:textSize="40dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Activity Location: Pawna Lake, Maharashtra
+Suitable for: Solo, Families, Bachelors."
+                android:textColor="#000"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:text="Check-in time: 4:00 PM
+Check-out time: 11:00 AM (Next day)
+Activity Duration: 2 Days 1 Night"
+                android:textSize="20dp"
+                android:layout_marginStart="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:text="INFORMATION"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_marginStart="10dp"
+                android:text="Day 1
+Check-In at the Campsite | Games and activities
+Check-In by 04:00 PM at the Pawna campsite and explore the scenic beauty of the lush green Western Ghats.
+Once you are settled down, Tea and Snacks will be served around 5-5:30 PM.
+Indulge in some fun DIY games and activities at the campsite and enjoy the evening to the fullest.
+Grab BBQ Snacks by 7 PM - 8 PM.
+Grab your seat and listen to live music with your loved ones beside the beautiful Pawna lake. (Note: Live music is only available on weekends)
+Enjoy a delicious dinner at the Pawna Lake Camping, while enjoying the beautiful evening with a bonfire and music. If you feel like spending more time gazing at the sky and its stars, all the time and space will be yours."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:text="Photos : "
+                android:layout_marginStart="10dp"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:layout_marginStart="10dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/pawna" />
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/pawnaside" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/Book"
+            android:layout_width="155dp"
+            android:layout_height="49dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginBottom="20dp"
+            android:text="BOOK A TRIP"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/password2"
+            android:backgroundTint="#fece2f"/>
+
+    </LinearLayout>
+
+</ScrollView>

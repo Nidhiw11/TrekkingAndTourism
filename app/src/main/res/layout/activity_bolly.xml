@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bolly">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/bolly" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Bollywood Studio Experiential Tour Mumbai"
+                android:gravity="center"
+                android:textColor="#000"
+                android:textSize="34dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:text="PRICE RANGE(40% off)"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_marginStart="10dp"
+                android:text="INR 1,999"
+                android:id="@+id/bollprice"
+                android:textStyle="bold"
+                android:textSize="40dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:text="Activity Location: SJ Studio and Entertainment Ltd.
+
+(The above-mentioned Studio Location is for reference only and will be subject to availability. The exact activity location will be shared with you at the time of booking depending upon the availability of any studio in Mumbai.)
+"
+                android:textSize="20dp"
+                android:layout_marginStart="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_marginTop="10dp"
+                android:text="Operational Hours:Activity Timings: 10 AM, 11 AM, 3 PM, 4 PM, 5 PM, 6 PM and 7 PM
+
+Activity Duration: 1 hour (Approx.)"
+                android:textSize="20dp"
+                android:layout_marginStart="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_marginTop="10dp"
+                android:text="INFORMATION"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:text="Arrival at Shooting studio.
+Escorted to a specially created set inside the studio.
+Visit a live shooting set along with watch filming at the shooting set.
+Peek at the behind-the-scenes activities of movie making and see the technicians at work.
+When you will reach the studio where a guide will assist you throughout the studio to get you familiar with the place and other important details of your tour.
+Spot various artists and performers performing acts on live shooting sets."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:text="Photos : "
+                android:layout_marginStart="10dp"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:layout_marginStart="10dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/shahrukhkhan" />
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/bolly" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/Book"
+            android:layout_width="155dp"
+            android:layout_height="49dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginBottom="20dp"
+            android:text="BOOK A TRIP"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/password2"
+            android:backgroundTint="#fece2f"/>
+
+    </LinearLayout>
+
+</ScrollView>

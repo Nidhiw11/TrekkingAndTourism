@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FP"
+    android:background="#fece2f">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:padding="15dp"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/password_reset_head"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="PLEASE ENTER YOUR REGISTERED E-MAIL"
+            android:textColor="#EA0F0A"
+            android:textSize="25dp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/reset_pass_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/password_reset_head"
+            android:layout_marginTop="50dp"
+            android:fontFamily="sans-serif-medium"
+            android:padding="6dp"
+            android:text="Email*"
+            android:textColor="#0E0E0E"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edittext_password_reset_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/reset_pass_email"
+            android:background="#88F1EEEE"
+            android:hint="Enter your registered e-mail"
+            android:inputType="textEmailAddress"
+            android:padding="6dp"
+            android:textColor="@color/black"
+            android:textColorHint="#656465"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/resetbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edittext_password_reset_email"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="70dp"
+            android:background="#fece2f"
+            android:text="RESET"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold|italic"
+            app:backgroundTint="#fece2f" />
+
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/progressbar1"
+            android:elevation="10dp"
+            android:visibility="gone"/>
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

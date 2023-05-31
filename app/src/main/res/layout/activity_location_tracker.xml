@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Location_Tracker">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="#fece2f">
+
+            <fragment
+                android:id="@+id/map"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginBottom="50dp"
+                android:layout_weight="3" />
+
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/progressBar"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:elevation="10dp"
+                android:visibility="gone"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:layout_margin="15dp"
+            android:background="#F3F4F2">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/ll1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Latitude: "
+                    android:layout_marginTop="40dp"
+                    android:id="@+id/getLoc"
+                    android:textColor="#000"
+                    android:textStyle="bold"/>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/getLoc2"
+                android:text="Longitude"
+                android:layout_marginTop="40dp"
+                android:layout_below="@+id/ll1"
+                android:padding="6dp"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColorHint="#656465"
+                android:textColor="#000"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/getLoc3"
+                android:text="Address"
+                android:layout_marginTop="40dp"
+                android:layout_below="@+id/getLoc2"
+                android:padding="6dp"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColorHint="#656465"
+                android:textColor="#000" />
+
+            <Button
+                android:id="@+id/updateLoc"
+                android:layout_width="155dp"
+                android:layout_height="49dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="70dp"
+                android:layout_marginTop="10dp"
+                android:text="NEXT"
+                android:layout_below="@+id/getLoc3"
+                android:backgroundTint="#fece2f"/>
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

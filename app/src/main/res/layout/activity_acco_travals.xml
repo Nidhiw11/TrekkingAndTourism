@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fece2f">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/title"
+        android:text="You can Choose Accommodation And Tourism Here"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:background="#fece2f"
+        android:padding="16dp" />
+
+    <!-- Author -->
+
+    <!-- Content -->
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@id/title"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- First paragraph -->
+            <TextView
+                android:id="@+id/author"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/title"
+                android:textStyle="bold"
+                android:layout_marginTop="2dp"
+                android:padding="8dp"
+                android:text="1. Best Hotels and Restaurants"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="Henderson Beach Resort Destin, United States 9.2 Superb  478 reviews
+Henderson Beach Resort is located adjacent to Henderson Beach State Park and offers private beach access.
+Guests can take a refreshing plunge in one of the property's 2 pools or unwind in the full service spa. Several dining options are available on site that guests are sure to enjoy.
+30,000 square feet of meeting and event space is available as well. Complimentary WiFi is provided for all guests.."
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:src="@drawable/accomo"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:padding="16dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/black"
+                android:id="@+id/divider2"/>
+
+            <TextView
+                android:text="2. Offbeat Villas of our Country"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:padding="16dp" />
+
+            <!-- Second paragraph -->
+            <TextView
+                android:text="The holiday home is fitted with 3 bedrooms, a TV with cable channels and a fully equipped kitchen that provides guests with a fridge, an oven, a washing machine, a dishwasher and a microwave.
+                 Towels and bed linen are offered in the holiday home."
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:padding="16dp" />
+            <ImageView
+                android:src="@drawable/villa"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:padding="16dp" />
+
+            <TextView
+                android:text="Best Price Guarantee! No reservation costs. Great rates. We speak your language. No Booking Fees. Secure Booking.
+                Get Instant Confirmation. Read Real Guest Reviews.."
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:padding="16dp" />
+            <ImageView
+                android:src="@drawable/tent"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:padding="16dp" />
+
+            <TextView
+                android:text="Do you want to explore accommodation types? Click here to know more."
+                android:textSize="16sp"
+                android:id="@+id/highalt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#074998"
+                android:clickable="true"
+                android:autoLink="web"
+                android:onClick="openLink"
+                android:padding="16dp" />
+
+            <ImageView
+                android:src="@drawable/travals"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:padding="16dp" />
+            <TextView
+                android:text="choose Transportation Type. Click here to learn more."
+                android:textSize="16sp"
+                android:id="@+id/diy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#074998"
+                android:clickable="true"
+                android:autoLink="web"
+                android:onClick="openLink"
+                android:padding="16dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/black"
+                android:id="@+id/divider1"/>
+            <TextView
+                android:text="Transportation References .Click here to learn More. "
+                android:textSize="16sp"
+                android:id="@+id/video"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#074998"
+                android:clickable="true"
+                android:autoLink="web"
+                android:onClick="openLink"
+                android:padding="16dp" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

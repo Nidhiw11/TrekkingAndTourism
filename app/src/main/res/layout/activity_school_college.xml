@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    tools:context=".School_College">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="#fece2f">
+
+            <TextView
+                android:id="@+id/banner1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:layout_centerInParent="true"
+                android:text="WELCOME, HERE YOU WILL FIND BEST SCHOOL/ COLLEGE TRIPS!!"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:background="@color/white"
+            android:id="@+id/schrl"
+            android:padding="10dp">
+
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="IT'S TIME TO HAVE FUN!!!"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="800dp"
+                android:layout_marginTop="30dp"
+                android:layout_below="@id/textView2"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="220dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="20dp">
+
+                        <ImageView
+                            android:id="@+id/imageView3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/waterkingdom" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:layout_gravity="bottom"
+                            android:background="@color/white"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView9"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="WATER KINGDOM, MUMBAI"
+                                android:textSize="13dp"
+                                android:layout_marginStart="10dp"
+                                android:textColor="#000"
+                                android:textStyle="bold" />
+                            <TextView
+                                android:id="@+id/waterprice"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="PRICE - Rs 1300/-"
+                                android:textSize="12dp"
+                                android:layout_marginStart="10dp"
+                                android:textColor="#000"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="220dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="10dp"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="20dp" >
+
+                        <ImageView
+                            android:id="@+id/WetNJoy"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/wetnjoy" />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:layout_gravity="bottom"
+                            android:background="@color/white"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView10"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="WET N JOY RESORT, LONAVALA"
+                                android:layout_marginStart="10dp"
+                                android:textColor="#000"
+                                android:textSize="13dp"
+                                android:textStyle="bold" />
+                            <TextView
+                                android:id="@+id/wetprice"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="PRICE - Rs 1200/-"
+                                android:textSize="10dp"
+                                android:layout_marginStart="10dp"
+                                android:textColor="#000"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="220dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="20dp" >
+
+                        <ImageView
+                            android:id="@+id/pawna"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/pawnaside" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:layout_gravity="bottom"
+                            android:background="@color/white"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView6"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="PAWNA LAKE CAMPING"
+                                android:layout_marginStart="10dp"
+                                android:textColor="#000"
+                                android:textSize="13dp"
+                                android:textStyle="bold" />
+                            <TextView
+                                android:id="@+id/pawnaprice"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="PRICE - Rs 999/-"
+                                android:layout_marginStart="10dp"
+                                android:textSize="12dp"
+                                android:textColor="#000"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="220dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="10dp"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="20dp" >
+
+                        <ImageView
+                            android:id="@+id/bolly"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/bolly"
+                            android:scaleType="fitXY"/>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:layout_gravity="bottom"
+                            android:background="@color/white"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="BOLLYWOOD STUDIO TOUR, MUMBAI"
+                                android:layout_marginStart="10dp"
+                                android:textSize="13dp"
+                                android:textColor="#000"
+                                android:textStyle="bold" />
+                            <TextView
+                                android:id="@+id/bollyprice"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="PRICE - Rs 1999/-"
+                                android:textSize="10dp"
+                                android:layout_marginStart="10dp"
+                                android:textColor="#000"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

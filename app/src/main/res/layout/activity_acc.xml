@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".acc"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="#fece2f">
+
+            <TextView
+                android:id="@+id/banner1"
+                android:layout_width="match_parent"
+                android:layout_height="121dp"
+                android:gravity="center"
+                android:text="ACCOMODATION AND TRANSPORT"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/bannerdesc1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="101dp"
+                android:gravity="center"
+                android:text="START YOUR BOOKING PROCESS HERE"
+                android:textColor="#070707"
+                android:textSize="12sp"
+                android:textStyle="italic" />
+
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/progressBar"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:elevation="10dp"
+                android:visibility="gone"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:layout_margin="15dp"
+            android:background="#F3F4F2">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/ll1">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Check-In Date: "
+                    android:id="@+id/cIn"
+                    android:textColor="#000"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:id="@+id/dob"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:textColor="@color/black"
+                    android:drawableRight="@drawable/ic_baseline_date_range_24"
+                    android:inputType="date"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColorHint="#656465"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Check-Out Date:"
+                    android:textColor="#000"
+                    android:id="@+id/cOut"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:id="@+id/dob2"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:textColor="@color/black"
+                    android:drawableRight="@drawable/ic_baseline_date_range_24"
+                    android:inputType="date"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColorHint="#656465"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewacc"
+                android:text="Accomodation Type"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/ll1"
+                android:padding="6dp"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColorHint="#656465"
+                android:textColor="#000"/>
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radiogender"
+                android:layout_below="@+id/textViewacc">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radio_female"
+                    android:text="Hotels"
+                    android:textSize="16sp"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textColorHint="#656465"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radio_male"
+                    android:text="Tents"
+                    android:textSize="16sp"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textColorHint="#656465"/>
+
+                <RadioButton
+                    android:id="@+id/radio_others"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Villa"
+                    android:textColor="#000"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColorHint="#656465" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewtrans"
+                android:text="Transportation Type"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/radiogender"
+                android:padding="6dp"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColorHint="#656465"
+                android:textColor="#000" />
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radiotrans"
+                android:layout_below="@+id/textViewtrans">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radio_bus"
+                    android:text="Bus Travels"
+                    android:textSize="16sp"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textColorHint="#656465"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radio_train"
+                    android:text="Train"
+                    android:textSize="16sp"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textColorHint="#656465"/>
+
+                <RadioButton
+                    android:id="@+id/radio_SelfService"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Self Service"
+                    android:textColor="#000"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColorHint="#656465" />
+            </RadioGroup>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/pricerange"
+                android:text="Payment Amount "
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:layout_below="@+id/radiotrans"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pricerange"
+                android:id="@+id/amt"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textColorHint="#656465"/>
+
+            <Button
+                android:id="@+id/next"
+                android:layout_width="155dp"
+                android:layout_height="49dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginRight="70dp"
+                android:layout_marginTop="20dp"
+                android:text="NEXT"
+                android:layout_below="@+id/amt"
+                android:backgroundTint="#fece2f"/>
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

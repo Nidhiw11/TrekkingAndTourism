@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Devkund">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/devkund"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Devkund Trek"
+                android:gravity="center"
+                android:textColor="#000"
+                android:textSize="36dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_marginStart="10dp"
+                android:text="PRICE RANGE (30% off)"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_marginStart="10dp"
+                android:text="799 per person"
+                android:id="@+id/Dev_price"
+                android:textStyle="bold"
+                android:textSize="30dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:text="TREK DIFFICUILTY - Easy|Moderate Level2"
+                android:textSize="20dp"
+                android:layout_marginStart="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:text="TREK DURATION - 1 Days and 1 Night approximately 170 km"
+                android:textSize="20dp"
+                android:layout_marginStart="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:text="INFORMATION"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_marginStart="10dp"
+                android:text="Devkund waterfall Trek is about 170 km from Mumbai and 110 km from Pune. The journey to the base village is about 7 hours long from Mumbai and 5 hours long from Pune. It can be easily accessed through Mumbai Pune Expressway."
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:text="Photos : "
+                android:layout_marginStart="10dp"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:layout_marginStart="10dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/devkund" />
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/takmak" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/Book"
+            android:layout_width="155dp"
+            android:layout_height="49dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginBottom="20dp"
+            android:text="BOOK A TRIP"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/password2"
+            android:backgroundTint="#fece2f"/>
+
+    </LinearLayout>
+
+</ScrollView>

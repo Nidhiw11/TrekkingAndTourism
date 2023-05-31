@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "832372171257",
+    "project_id": "trek-tour-23179",
+    "storage_bucket": "trek-tour-23179.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:832372171257:android:e337727ac31b7510b81d28",
+        "android_client_info": {
+          "package_name": "com.example.trek_tour"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "832372171257-6ikora8n9oto5dj1emtcrsg7tqq1pa7g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGIfXCjGx17j5JBTiR04JZ8uYYGt_isss"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "832372171257-6ikora8n9oto5dj1emtcrsg7tqq1pa7g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
